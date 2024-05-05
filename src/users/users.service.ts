@@ -17,4 +17,16 @@ export class UsersService {
   getUsers() {
     return this.users;
   }
+  createtUser() {
+    return ' CREATE USER';
+  }
+  updateUser() {
+    return 'UPDATE';
+  }
+  deleteUser() {
+    return 'DELETE';
+  }
+  updateUserStatus() {
+    return 'Update User Status';
+  }
 }
